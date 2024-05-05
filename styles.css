@@ -2,6 +2,7 @@
     --color-dark: #2B2B35;
     --color-primary: #FFD4D4;
     --color-primary-50: #FFEEEE;
+    --color-primary-150: #D5B2B4;
   }
 
 @font-face {
@@ -88,9 +89,8 @@ header nav ul {
   }
   
   header nav ul li a:hover {
-    text-decoration: underline;
-    text-underline-offset: 6px;
-    text-decoration-thickness: 1px;
+    background-color: var(--color-primary-150);
+    border-bottom: 2px solid var(--color-dark);
   }
 
   .button-wrapper {
