@@ -104,9 +104,18 @@ header nav ul {
     color: var(--color-dark);
     line-height: 0;
     text-decoration: 0;
+    font-size: 20px;
   }
 
   .primary-btn:hover {
     background-color: var(--color-dark);
     color: var(--color-primary);
+  }
+
+.project-wrapper {
+    display: flex;
+  }
+
+  .project-link {
+    width: 50%;
   }
