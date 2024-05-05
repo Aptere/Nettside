@@ -24,7 +24,14 @@ body {
   font-family: 'Manrope', sans-serif; /* Use Manrope as fallback */
   margin: 0;
   padding: 0;
-  color: var(--color-dark)
+  color: var(--color-dark);
+  background-color: var(--color-primary-50);
+}
+
+.logo-emblem {
+    font-size: 64px;
+    font-family: 'TT Nooks';
+    line-height: 0.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -56,6 +63,54 @@ header {
     background-color: var(--color-primary);
     padding: 36px 72px;
 }
+
+footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 36px 72px;
+}
+
+footer p{
+    margin: 0;
+    font-weight: 300;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  footer ul li:last-child {
+    margin-right: 0;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: var(--color-dark);
+    font-weight: 300;
+  }
+  
+  footer ul li a:hover {
+    background-color: var(--color-primary-150);
+    border-bottom: 2px solid var(--color-dark);
+  }
+  
 
 .header-name {
     font-family: 'TT Nooks', sans-serif; /* Use TT Nooks for headings */
