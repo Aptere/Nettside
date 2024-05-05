@@ -138,10 +138,6 @@ footer ul {
     text-decoration: none;
   }
 
-  header a:hover {
-    opacity: 0.5;
-  }
-
 .header-name {
     font-family: 'TT Nooks', sans-serif; /* Use TT Nooks for headings */
     font-size: 36px;
@@ -149,6 +145,10 @@ footer ul {
     letter-spacing: -1px;
     text-decoration: none!important ;
     color: var(--color-dark);
+}
+
+.header-name:hover {
+    opacity: 0.5;
 }
 
 header nav ul {
@@ -241,7 +241,6 @@ header nav ul {
 }
 
   .project-link {
-    width: calc(50% - 36px);
     text-decoration: none;
     color: var(--color-dark);
   }
