@@ -260,3 +260,42 @@ header nav ul {
         font-size: 50px;
     }
   }
+
+  .main-theme {
+    background-color: var(--color-primary-50);
+  }
+
+  .project-h2 {
+    font-size: 16px;
+   font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .project-desc {
+    font-size: 24px;
+   font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+  }
+
+  .info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #info {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  #image-double {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #image-double img {
+    width: 50%;
+  }
