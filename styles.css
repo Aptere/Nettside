@@ -1,5 +1,6 @@
 :root {
     --color-dark: #2B2B35;
+    --color-darker: #08080a;
     --color-primary: #FFD4D4;
     --color-primary-50: #FFEEEE;
     --color-primary-150: #D5B2B4;
@@ -196,8 +197,8 @@ header nav ul {
   }
 
   .primary-btn:hover {
-    background-color: var(--color-primary);
-    color: var(--color-dark);
+    background-color: var(--color-darker);
+    color: var(--color-primary);
   }
 
   .secondary-btn {
