@@ -262,7 +262,7 @@ header nav ul {
   }
 
   .main-theme {
-    background-color: var(--color-primary-50);
+    background-color: inherit;
   }
 
   .project-h2 {
@@ -298,4 +298,16 @@ header nav ul {
 
   #image-double img {
     width: 50%;
+  }
+
+  .digdir-theme {
+    background-color: #FBCFD0;
+  }
+
+  .naturvinforbundet-theme {
+    background-color: #FFE1CC;
+  }
+
+  .ingebrigtsen-theme {
+    background-color: #E5F9FF;
   }
