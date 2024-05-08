@@ -283,6 +283,7 @@ header nav ul {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    width: 75%;
   }
 
   #info {
@@ -291,13 +292,20 @@ header nav ul {
     gap: 48px;
   }
 
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
   #image-double {
     display: flex;
     flex-direction: row;
+    width: 100%;
   }
 
   #image-double img {
-    width: 50%;
+    height: 100%;
+    width: auto;
   }
 
   .digdir-theme {
@@ -311,4 +319,3 @@ header nav ul {
   .ingebrigtsen-theme {
     background-color: #E5F9FF;
   }
-  
