@@ -325,3 +325,64 @@ header nav ul {
   .ingebrigtsen-theme {
     background-color: #E5F9FF;
   }
+
+.accordion {
+  background-color: var(--color-primary);
+  color: var(--color-dark);
+  cursor: pointer;
+  padding: 36px 36px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+    font-size: 36px;
+    font-family: 'Manrope';
+    font-weight: 400;
+  transition: 0.4s;
+  margin-bottom: 1px;
+}
+
+.active, .accordion:hover {
+  background-color: var(--color-primary-150);
+}
+
+.accordion:after {
+  content: '\002B';
+  color: var(--color-dark);
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 36px;
+  background-color: inherit;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.panel p {
+         font-size: 24px;
+    font-family: 'Manrope';
+    font-weight: 400;
+}
+
+.accordion-wrapper {
+  padding: 72px;
+}
+
+#tjenester {
+    padding: 72px;
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+}
+
+#tjenester h1 {
+margin-bottom: 48px;
+}
