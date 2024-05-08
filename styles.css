@@ -339,7 +339,6 @@ header nav ul {
     font-family: 'Manrope';
     font-weight: 400;
   transition: 0.4s;
-  margin-bottom: 1px;
 }
 
 .active, .accordion:hover {
