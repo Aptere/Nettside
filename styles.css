@@ -228,7 +228,7 @@ header nav ul {
   }
 
 .project img {
-    height: 400px;
+    height: 500px;
     width: 100%;
     object-fit: cover;
 }
@@ -295,18 +295,18 @@ header nav ul {
 
   .image-container {
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+        gap: 36px;
   }
 
   #image-double {
     display: flex;
     flex-direction: row;
-    width: 100%;
   }
 
   #image-double img {
     height: 100%;
-    width: auto;
+    width: 100%;
   }
 
   .digdir-theme {
