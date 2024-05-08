@@ -17,12 +17,17 @@
   font-style: normal;
 }
 
+* {
+    font-family: "Manrope", sans-serif;
+}
+
 /* Use Google font Manrope */
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=block');
 
 /* Apply fonts to elements */
 body {
-  font-family: 'Manrope', sans-serif; /* Use Manrope as fallback */
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
   margin: 0;
   padding: 0;
   color: var(--color-dark);
