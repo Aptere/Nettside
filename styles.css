@@ -561,4 +561,11 @@ margin-bottom: 48px;
 .logo-emblem, .footer-column {
   width: 25%;
 }
+
+#tjenester {
+  padding: 28px;
+}
+.accordion {
+  width: 100%;
+}
 }
