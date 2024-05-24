@@ -402,7 +402,7 @@ margin-bottom: 48px;
 }
 
 .contact-card img {
-  height: 75%;
+  height: 100%;
   width: 100%;
   object-fit: cover;
   
@@ -435,6 +435,6 @@ margin-bottom: 48px;
   font-size: 24px;
 }
 
-#contact-page {
+.purple-page {
   background-color: var(--color-primary);
 }
