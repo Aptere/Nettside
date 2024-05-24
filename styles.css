@@ -434,3 +434,7 @@ margin-bottom: 48px;
 .contact-card h2 {
   font-size: 24px;
 }
+
+#contact-page {
+  background-color: var(--color-primary);
+}
