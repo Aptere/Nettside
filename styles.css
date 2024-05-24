@@ -501,6 +501,35 @@ margin-bottom: 48px;
 }
 
 
+.project-button {
+  padding: 48px;
+  width: 750px;
+  display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  
+  .project-button a {
+  text-decoration: none;
+    }
+  
+  #project-button-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  #project-button-wrapper a {
+    text-decoration: none;
+    color: var(--color-dark);
+    background-color: var(--color-primary-50);
+  }
+  
+  #project-button-wrapper a:hover {
+    outline: 2px solid var(--color-dark);
+    background-color: var(--color-primary);
+  }
+
 
 @media (max-width: 1024px) {
   #about h1 {
@@ -567,5 +596,12 @@ margin-bottom: 48px;
 }
 .accordion {
   width: 100%;
+  font-size: 28px;
 }
+.info-wrapper {
+  width: 100%;
+}
+.project-button {
+  width: 450px;
+  }
 }
