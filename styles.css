@@ -386,11 +386,46 @@ header nav ul {
 margin-bottom: 48px;
 }
 
-#about-page {
-  display: flex;
-  flex-direction: row;
-}
-
 #about-page h1, #about-page h2 {
   width: 50%;
+}
+
+.contact-card p, .contact-card a{
+  font-size: 18px;
+  text-decoration: none;
+  margin: 0;
+}
+
+.contact-card img {
+  height: 75%;
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 16px; 
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact-card a {
+  text-decoration: none;
+  color: var(--color-dark);
+  font-weight: 300;
+}
+
+.contact-card a:hover {
+  background-color: var(--color-primary-150);
+  border-bottom: 2px solid;
+}
+
+.contact-card h2 {
+  font-size: 24px;
 }
