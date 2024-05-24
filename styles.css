@@ -385,3 +385,12 @@ header nav ul {
 #tjenester h1 {
 margin-bottom: 48px;
 }
+
+#about-page {
+  display: flex;
+  flex-direction: row;
+}
+
+#about-page h1, #about-page h2 {
+  width: 50%;
+}
