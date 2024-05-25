@@ -602,6 +602,22 @@ margin-bottom: 48px;
   width: 100%;
 }
 .project-button {
-  width: 450px;
+  width: 275px;
   }
+  .contact-wrapper {
+    flex-direction: column;
+  }
+  .contact-card {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 16px;
+  }
+
+  .contact-card h2 {
+    font-size: 28px;
+  }
+  .contact-card p, .contact-card a {
+    font-size: 24px;
+}
 }
