@@ -331,6 +331,10 @@ header nav ul {
   transition: 0.4s;
 }
 
+.accordion-highlight {
+  background-color: var(--color-primary);
+}
+
 .active, .accordion:hover {
   background-color: var(--color-primary-150);
 }
@@ -381,8 +385,12 @@ margin-bottom: 48px;
   flex-direction: row;
 }
 
-#about-page h1, #about-page h2 {
-  width: 50%;
+#about-page h1 {
+  width: 35%;
+}
+
+#about-page h2 {
+  width: 65%;
 }
 
 .contact-card p, .contact-card a{
@@ -530,6 +538,11 @@ margin-bottom: 48px;
     background-color: var(--color-primary);
   }
 
+  .outline-bright {
+    outline: 2px solid var(--color-dark);
+  }
+
+
 
 @media (max-width: 1024px) {
   #about h1 {
@@ -619,5 +632,9 @@ margin-bottom: 48px;
   }
   .contact-card p, .contact-card a {
     font-size: 24px;
+}
+
+#tjenester h1 {
+  margin-bottom: 24px;
 }
 }
