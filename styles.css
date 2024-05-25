@@ -297,11 +297,15 @@ header nav ul {
   #image-double {
     display: flex;
     flex-direction: row;
+    padding: 24px 72px;
+  }
+
+  #single-image {
+    padding: 24px 72px;
   }
 
   #image-double img {
-    height: 100%;
-    width: 100%;
+    width: calc(50% - 18px);
   }
 
   .digdir-theme {
