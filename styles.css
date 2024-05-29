@@ -324,12 +324,12 @@ header nav ul {
   background-color: var(--color-primary);
   color: var(--color-dark);
   cursor: pointer;
-  padding: 36px 36px;
+  padding: 24px 24px;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-    font-size: 36px;
+    font-size: 24px;
     font-family: 'Manrope';
     font-weight: 400;
   transition: 0.4s;
@@ -356,7 +356,7 @@ header nav ul {
 }
 
 .panel {
-  padding: 0 36px;
+  padding: 0 24px;
   background-color: inherit;
   max-height: 0;
   overflow: hidden;
@@ -365,6 +365,7 @@ header nav ul {
 
 .panel p {
          font-size: 24px;
+         line-height: 36px;
     font-family: 'Manrope';
     font-weight: 400;
 }
@@ -376,12 +377,13 @@ header nav ul {
 #tjenester {
     padding: 72px;
     display: flex;
-    gap: 0px;
+    gap: 16px;
     flex-direction: column;
 }
 
 #tjenester h1 {
-margin-bottom: 48px;
+margin-bottom: 16px;
+font-size: 48px;
 }
 
 #about-page {
@@ -644,4 +646,8 @@ margin-bottom: 48px;
 #tjenester h1 {
   margin-bottom: 24px;
 }
+}
+
+.accordion-section {
+  width: 100%;
 }
