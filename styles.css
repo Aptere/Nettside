@@ -672,3 +672,38 @@ font-size: 48px;
 .accordion-section {
   width: 100%;
 }
+
+#case-text-section {
+  display: flex;
+  flex-direction: row;
+  height: 75vh;
+  align-items: center;
+}
+
+#case-text-section h2 {
+  width: 75%!important;
+}
+
+#case-text-section h1 {
+  width: 25%!important;
+}
+
+#case-text-section-long {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  align-items: center;
+}
+
+#case-text-section-long div {
+  display: flex;
+  flex-direction: row;
+}
+
+#case-text-section-long h1 {
+  width: 40%;
+}
+
+#case-text-section-long h2 {
+  width: 60%;
+}
