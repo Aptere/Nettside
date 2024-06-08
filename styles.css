@@ -3,11 +3,19 @@
     --color-darker: #111115;
     --color-darker-hover: #2e1538;
     --color-darker-active: #3e2847;
+/**/
     --color-primary: #ffabab;
     --color-primary-hover: #e29c9d;
     --color-primary-active: #c68889;  
+/**/
+    --color-primary-surface: #ffd9da;
+    --color-primary-surface-hover: #ffc3c3;
+    --color-primary-surface-active: #faadae;
+/**/
     --color-primary-50: #fffdfd;  
     --color-primary-150: #f7a5a5;
+    --color-primary-50: #fffdfd;  
+/**/
     --digdir-theme: #ffd9da;
     --naturvin-theme: #fff0da;
   }
@@ -219,7 +227,6 @@ header nav ul {
 
   .primary-btn:hover {
     background-color: var(--color-darker-hover);
-    color: var(--color-primary);
   }
 
   .primary-btn:active {
@@ -236,8 +243,11 @@ header nav ul {
   }
 
   .secondary-btn:hover {
-    background-color: var(--color-dark);
-    color: var(--color-primary);
+    background-color: var(--color-primary-surface-hover);
+  }
+
+  .secondary-btn:active {
+    background-color: var(--color-primary-surface-active);
   }
 
 .project-wrapper {
@@ -328,7 +338,7 @@ header nav ul {
   }
 
 .accordion {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-surface);
   color: var(--color-dark);
   cursor: pointer;
   padding: 24px 24px;
@@ -343,11 +353,11 @@ header nav ul {
 }
 
 .accordion-highlight {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-surface);
 }
 
 .active, .accordion:hover {
-  background-color: var(--color-primary-150);
+  background-color: var(--color-primary-surface-active);
 }
 
 .accordion:after {
