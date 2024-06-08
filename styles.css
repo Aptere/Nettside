@@ -3,11 +3,11 @@
     --color-darker: #111115;
     --color-darker-hover: #2e1538;
     --color-darker-active: #3e2847;
-    --color-primary: #ffb0e0;
-    --color-primary-hover: #e59ec9;
-    --color-primary-active: #c98bb1;    
-    --color-primary-50: #fffefe;
-    --color-primary-150: #c98bb1;
+    --color-primary: #ffabab;
+    --color-primary-hover: #e29c9d;
+    --color-primary-active: #c68889;  
+    --color-primary-50: #fffdfd;  
+    --color-primary-150: #f7a5a5;
     --digdir-theme: #ffd9da;
     --naturvin-theme: #fff0da;
   }
