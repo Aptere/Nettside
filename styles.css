@@ -57,6 +57,10 @@ body {
   background-color: var(--color-primary-50);
 }
 
+.digdir-theme #single-image {
+  padding: 72px 72px;
+}
+
 
 
 .logo-emblem {
@@ -667,6 +671,31 @@ font-size: 48px;
 #tjenester h1 {
   margin-bottom: 24px;
 }
+
+#case-text-section-long {
+  height: unset!important;
+  flex-direction: column;
+}
+
+#case-text-section-long h1 {
+  width: unset!important;
+}
+
+#case-text-section-long h2 {
+  width: unset!important;
+}
+
+.digdir-theme #single-image {
+  padding: 28px;
+}
+
+#image-double {
+  padding: 28px;
+}
+
+#case-text-section-long div {
+flex-direction: column!important;
+}
 }
 
 .accordion-section {
@@ -691,7 +720,7 @@ font-size: 48px;
 #case-text-section-long {
   display: flex;
   flex-direction: row;
-  height: 100vh;
+  height: 50vh;
   align-items: center;
 }
 
