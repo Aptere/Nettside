@@ -689,6 +689,16 @@ font-size: 48px;
   padding: 28px;
 }
 
+.digdir-theme h2 {
+  font-size: 24px;
+}
+
+.digdir-theme h1 {
+  font-size: 36px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
 #image-double {
   padding: 28px;
 }
