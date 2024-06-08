@@ -110,7 +110,7 @@ footer {
     align-items: flex-start;
     padding: 36px 72px;
  justify-content: space-between;
-border-top: 1px solid var(--color-primary);
+border-top: 1px solid var(--color-primary-150);
 }
 
 footer p{
@@ -438,7 +438,7 @@ font-size: 48px;
 }
 
 .contact-card a:hover {
-  background-color: var(--color-primary-150);
+  background-color: var(--color-primary-hover);
   border-bottom: 2px solid;
 }
 
@@ -529,7 +529,6 @@ font-size: 48px;
       align-items: center;
       flex-direction: row;
       justify-content: space-between;
-      background-color: white;
   }
   
   .project-button a {
@@ -550,6 +549,11 @@ font-size: 48px;
   #project-button-wrapper a:hover {
     outline: 2px solid var(--color-dark);
     background-color: var(--color-primary);
+  }
+
+  #project-button-wrapper a:active {
+    outline: 2px solid var(--color-dark);
+    background-color: var(--color-primary-active);
   }
 
   .outline-bright {
