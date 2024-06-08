@@ -1,9 +1,24 @@
 :root {
-    --color-dark: #2B2B35;
+    --color-dark: #15152c;
     --color-darker: #111115;
-    --color-primary: #FFD4D4;
-    --color-primary-50: #FFEEEE;
-    --color-primary-150: #D5B2B4;
+    --color-darker-hover: #2e1538;
+    --color-darker-active: #3e2847;
+    --color-primary: #ffb0e0;
+    --color-primary-hover: #e59ec9;
+    --color-primary-active: #c98bb1;    
+    --color-primary-50: #fffefe;
+    --color-primary-150: #c98bb1;
+    --digdir-theme: #ffd9da;
+    --naturvin-theme: #fff0da;
+  }
+
+
+  .digdir-theme {
+    background-color: var(--digdir-theme);
+  }
+
+  .naturvinforbundet-theme {
+    background-color: var(--naturvin-theme);
   }
 
 @font-face {
@@ -135,7 +150,7 @@ footer ul {
   }
   
   footer ul li a:hover {
-    background-color: var(--color-primary-150);
+    background-color: var(--color-primary-hover);
     border-bottom: 2px solid var(--color-dark);
   }
   
@@ -183,7 +198,7 @@ header nav ul {
   }
   
   header nav ul li a:hover {
-    background-color: var(--color-primary-150);
+    background-color: var(--color-primary-hover);
     border-bottom: 2px solid var(--color-dark);
   }
 
@@ -195,7 +210,7 @@ header nav ul {
   .primary-btn {
     padding: 24px;
     border: 1px solid var(--color-dark);
-    color: var(--color-primary);
+    color: var(--color-primary-50);
     line-height: 0;
     background: var(--color-dark);
     text-decoration: 0;
@@ -203,8 +218,12 @@ header nav ul {
   }
 
   .primary-btn:hover {
-    background-color: var(--color-darker);
+    background-color: var(--color-darker-hover);
     color: var(--color-primary);
+  }
+
+  .primary-btn:active {
+    background-color: var(--color-darker-active);
   }
 
   .secondary-btn {
@@ -306,18 +325,6 @@ header nav ul {
 
   #image-double img {
     width: calc(50% - 18px);
-  }
-
-  .digdir-theme {
-    background-color: #FBCFD0;
-  }
-
-  .naturvinforbundet-theme {
-    background-color: #FFE1CC;
-  }
-
-  .ingebrigtsen-theme {
-    background-color: #E5F9FF;
   }
 
 .accordion {
