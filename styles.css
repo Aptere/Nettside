@@ -356,6 +356,11 @@ header nav ul {
   transition: 0.4s;
 }
 
+.accordion iconify-icon {
+  vertical-align: -8px;
+  margin-right: 16px;
+}
+
 .accordion-highlight {
   background-color: var(--color-primary-surface);
 }
