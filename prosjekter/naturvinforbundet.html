@@ -17,6 +17,7 @@
   <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
   <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
   <script src="script.js"></script>
+
 </head>
 
 <body class="naturvinforbundet-theme">
@@ -32,7 +33,8 @@
         <li><a href="/tjenester">Våre tjenester</a></li>
         <li><a href="https://aptere.no/#prosjekter">Prosjekter</a></li>
         <li><a href="/om-oss">Om oss</a></li>
-        <li><a href="/kontakt">Kontakt</a></li>
+        <li><a href="/kontakt">Folka</a></li>
+<li><button id="openModalBtn" class="contact-button">Ta kontakt</button></li>
       </ul>
     </nav>
   </header>
@@ -67,7 +69,50 @@
     <a href="https://aptere.no/#prosjekter"><div class="project-button"><div class="project-desc">Se andre prosjekter</div><img src="../assets/ikoner/Arrow.svg"></div></a>
 </section>
 
+<div class="contact-form-wrapper">
 
+      
+  <!-- The Modal -->
+  <div id="contactModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <section id="contact-form">
+        <h1>Kontaktskjema</h1>
+        <form action="https://formspree.io/f/mldrgwaw" method="POST">
+          <div class="form-wrapper">
+            <label for="navn">Ditt navn</label>
+            <input type="text" id="navn" name="navn" placeholder="Navn Navnesen" required>
+          </div>
+          <div class="form-wrapper">
+            <label for="telefon">Telefonnummer</label>
+            <input type="tel" id="telefon" name="telefon" placeholder="+47 12 34 56 78" required>
+          </div>
+          <div class="form-wrapper">
+            <label for="firmanavn">Firmanavn</label>
+            <input type="text" id="firmanavn" name="firmanavn" placeholder="Firmanavn AS" required>
+          </div>
+          <div class="form-wrapper">
+            <label>Hva kan vi hjelpe deg med?</label>
+            <div class="checkbox-group">
+              <label><input type="checkbox" name="hjelp" value="webside"><span>Webside</span></label>
+              <label><input type="checkbox" name="hjelp" value="strategi"><span>Strategi og merkevarebygging</span></label>
+              <label><input type="checkbox" name="hjelp" value="identitet"><span>Visuell identitet</span></label>
+              <label><input type="checkbox" name="hjelp" value="markedsforing"><span>Markedsføring</span></label>
+              <label><input type="checkbox" name="hjelp" value="video_foto"><span>Video og foto</span></label>
+              <label><input type="checkbox" name="hjelp" value="annet"><span>Annet</span></label>
+            </div>
+          </div>
+          <div class="form-wrapper">
+            <label for="melding">Valgfri melding:</label>
+            <textarea id="melding" name="melding" placeholder="Skriv din melding her"></textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </div>
+  </div>
+</div>
   <!-- Footer -->
   <footer>
     <div class="logo-emblem">a</div>
@@ -89,7 +134,46 @@
       </ul>
     </div>
   </footer>
-
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get the modal
+      var modal = document.getElementById("contactModal");
+  
+      // Get the button that opens the modal
+      var btn = document.getElementById("openModalBtn");
+  
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+  
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+        modal.style.display = "flex";
+      }
+  
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+  
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+  
+      // Add active-form class to checkboxes on click
+      document.querySelectorAll('#contact-form .checkbox-group label input').forEach(checkbox => {
+        checkbox.addEventListener('change', function() {
+          if (this.checked) {
+            this.parentNode.classList.add('active-form');
+          } else {
+            this.parentNode.classList.remove('active-form');
+          }
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>
