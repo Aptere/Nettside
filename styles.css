@@ -902,10 +902,20 @@ flex-direction: column!important;
 
 .contact-button {
   text-decoration: none;
-  background-color: none!important;
   color: var(--color-dark);
   font-weight: 300;
   font-size: 18px;
   letter-spacing: 0.5px;
   line-height: 1.5em;
+  background: none;
+  border: none;
+  outline: 1px solid var(--color-dark);
+}
+
+.contact-button:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.contact-button:active {
+  background-color: var(--color-primary-active);
 }
