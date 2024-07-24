@@ -780,7 +780,7 @@ flex-direction: column!important;
   border-radius: 4px;
   font-size: 16px;
   color: var(--color-dark);
-  background-color: var(--color-primary-surface);
+  background-color: white;
 }
 
 #contact-form textarea {
@@ -812,21 +812,22 @@ flex-direction: column!important;
   display: inline-flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
+  margin-top: 8px;
 }
 
 #contact-form .checkbox-group label {
-  padding: 8px 16px;
-  outline: 1px solid var(--color-primary);
-  background-color: inherit;
+  padding: 12px 20px;
+  background-color: white;
+  border-radius: 8px;
   cursor: pointer;
   font-weight: 600;
-  transition: background-color 0.3s, color 0.3s;
 }
 
 #contact-form .checkbox-group label:hover {
-  background-color: var(--color-primary-150);
+  background-color: var(--color-primary-surface-hover);
   color: var(--color-dark);
+  outline: 2px solid var(--color-primary-surface-active);
 }
 
 #contact-form .checkbox-group label input {
@@ -858,7 +859,7 @@ flex-direction: column!important;
 }
 
 .modal-content {
-  background-color: #fefefe;
+  background-color: var(--color-primary-surface);
   margin: auto;
   padding: 20px;
   height: 80vh;
@@ -884,7 +885,7 @@ flex-direction: column!important;
 
 .active-form {
   outline: 2px solid var(--color-dark)!important;
-  background-color: var(--color-primary-surface)!important;
+  background-color: var(--color-primary-150)!important;
 }
 
 .form-wrapper {
