@@ -17,7 +17,13 @@
     --color-primary-50: #fffdfd;  
 /**/
     --digdir-theme: #ffd9da;
-    --naturvin-theme: #fff0da;
+    --naturvin-theme: #FFE2AB;
+
+    /**/
+    --pink: #D0ABFF;
+    --gul: #FFE2AB;
+    --blue: #ABD7FF;
+    --gronn: #C6FFAB;
   }
 
 
@@ -469,6 +475,22 @@ font-size: 48px;
   background-color: var(--color-primary);
 }
 
+.pink-page {
+  background: var(--pink);
+}
+
+.green-page {
+  background: var(--gronn);
+}
+
+.blue-page {
+  background: var(--blue);
+}
+
+.gul-page {
+  background: var(--gul);
+}
+
 /* New styles for mobile menu */
 .menu-icon {
   display: none;
@@ -751,10 +773,6 @@ flex-direction: column!important;
 #case-text-section-long h2 {
   width: 60%;
 }
-
-/* Styling for the contact form */
-#contact-form {}
-
 .contact-form-wrapper {
   display: flex;
   flex-direction: row;
@@ -919,4 +937,10 @@ flex-direction: column!important;
 
 .contact-button:active {
   background-color: var(--color-primary-active);
+}
+
+#error-page {
+  display: flex;
+  flex-direction: row;
+  min-height: 50vh;
 }
