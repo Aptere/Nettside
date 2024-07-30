@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aptere</title>
+  <meta name="description"
+    content="Aptere er et nytt, dedikert markedsføringsbyrå som spesialiserer seg på brukervennlige nettsider, innholdsproduksjon og digital tilstedeværelse. Vi hjelper bedrifter med å styrke sin online profil gjennom målrettede strategier og SEO. Sammen med våre kunder ønsker vi å skape engasjerende og effektive digitale løsninger.">
+  <meta name="keywords"
+    content="markedsføringsbyrå, digital marketing, kommunikasjon, brukervennlige nettsider, innholdsproduksjon, SEO, Aptere, grafisk design, digital tilstedeværelse">
+  <meta name="author" content="Aptere">
+  <title>Aptere | Fullservice Markedsføringsbyrå</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="192x192" href="assets/aptere-branding/android-chrome-192x192.png">
   <link rel="icon" type="image/png" sizes="512x512" href="assets/aptere-branding/android-chrome-512x512.png">
@@ -34,12 +39,12 @@
         <li><a href="https://aptere.no/#prosjekter">Prosjekter</a></li>
         <li><a href="/om-oss">Om oss</a></li>
         <li><a href="/folka">Folka</a></li>
-<li><button id="openModalBtn" class="contact-button">Ta kontakt</button></li>
+        <li><button id="openModalBtn" class="contact-button">Ta kontakt</button></li>
       </ul>
     </nav>
   </header>
-  
-  
+
+
 
   <!-- Section 1: About -->
   <section id="about">
@@ -66,14 +71,14 @@
         </div>
       </a>
     </div>
-  
+
 
     </div>
     </div>
   </section>
   <div class="contact-form-wrapper">
 
-      
+
     <!-- The Modal -->
     <div id="contactModal" class="modal">
       <!-- Modal content -->
@@ -98,7 +103,8 @@
               <label>Hva kan vi hjelpe deg med?</label>
               <div class="checkbox-group">
                 <label><input type="checkbox" name="hjelp" value="webside"><span>Webside</span></label>
-                <label><input type="checkbox" name="hjelp" value="strategi"><span>Strategi og merkevarebygging</span></label>
+                <label><input type="checkbox" name="hjelp" value="strategi"><span>Strategi og
+                    merkevarebygging</span></label>
                 <label><input type="checkbox" name="hjelp" value="identitet"><span>Visuell identitet</span></label>
                 <label><input type="checkbox" name="hjelp" value="markedsforing"><span>Markedsføring</span></label>
                 <label><input type="checkbox" name="hjelp" value="video_foto"><span>Video og foto</span></label>
@@ -114,7 +120,7 @@
         </section>
       </div>
     </div>
-</div>
+  </div>
   <!-- Footer -->
   <footer>
     <div class="logo-emblem">a</div>
@@ -137,36 +143,36 @@
     </div>
   </footer>
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       // Get the modal
       var modal = document.getElementById("contactModal");
-  
+
       // Get the button that opens the modal
       var btn = document.getElementById("openModalBtn");
-  
+
       // Get the <span> element that closes the modal
       var span = document.getElementsByClassName("close")[0];
-  
+
       // When the user clicks the button, open the modal 
-      btn.onclick = function() {
+      btn.onclick = function () {
         modal.style.display = "flex";
       }
-  
+
       // When the user clicks on <span> (x), close the modal
-      span.onclick = function() {
+      span.onclick = function () {
         modal.style.display = "none";
       }
-  
+
       // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function(event) {
+      window.onclick = function (event) {
         if (event.target == modal) {
           modal.style.display = "none";
         }
       }
-  
+
       // Add active-form class to checkboxes on click
       document.querySelectorAll('#contact-form .checkbox-group label input').forEach(checkbox => {
-        checkbox.addEventListener('change', function() {
+        checkbox.addEventListener('change', function () {
           if (this.checked) {
             this.parentNode.classList.add('active-form');
           } else {
