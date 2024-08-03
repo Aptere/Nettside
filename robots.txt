@@ -1,0 +1,14 @@
+# Apply to all web crawlers
+User-agent: *
+# Disallow crawling of 404 page
+Disallow: /404
+# Disallow access to private directories
+Disallow: /private
+Disallow: /tmp
+# Allow specific files within disallowed directories
+Allow: /private/public-file.html
+# Block specific user agents
+User-agent: BadBot
+Disallow: /
+# Specify the location of the sitemap
+Sitemap: http://www.aptere.no/sitemap.xml
