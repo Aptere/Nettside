@@ -947,12 +947,12 @@ header nav ul li a:hover {
 }
 
 .article {
-  width: 767px;
+  width: 900px;
   gap: 0px;
 }
 
 .article p {
-  margin-bottom: 72px;
+  margin-bottom: 48px;
   font-size: 1.5em;
   line-height: 1.7em;
   margin-top: 16px;
@@ -968,13 +968,6 @@ header nav ul li a:hover {
   align-items: center;
   justify-content: center;
   padding-top: 0;
-  padding-bottom: 0;
-}
-
-.article-header-wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
   padding-bottom: 0;
 }
 
@@ -997,4 +990,43 @@ header nav ul li a:hover {
   min-width: 48px;
   text-align: center;
   font-size: 1em;
+}
+
+.author-wrapper img {
+  height: 48px;
+  border-radius: 400px;
+}
+
+.author-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 36px;
+  margin-bottom: 64px;
+}
+
+.author {
+  color: var(--color-dark);
+  font-weight: 600;
+}
+
+.author-title {
+  color: var(--color-dark);
+  opacity: 0.5;
+}
+
+@media (max-width: 1024px) {
+  .article {
+    width: 100%;
+    gap: 0px;
+  }
+  .article-header-wrapper p {
+    font-size: 1.2em;
+  }
+  .article h2 {
+    font-size: 1.6em;
+  }
+  .article p {
+    margin-bottom: 36px;
+  }
 }
