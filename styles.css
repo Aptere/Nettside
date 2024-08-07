@@ -1015,10 +1015,47 @@ header nav ul li a:hover {
   opacity: 0.5;
 }
 
+article img {
+  width: 100%;
+  transition: 0.5s;
+}
+
+article {
+  width: calc(50% - 24px);
+  color: var(--color-dark);
+  text-decoration: none !important;
+}
+
+article h2 {
+  color: var(--color-dark);
+  text-decoration: none !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--color-dark);
+}
+
+article:hover img {
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+.article-samlet {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 1024px) {
-  .article {
+  article {
     width: 100%;
-    gap: 0px;
   }
   .article-header-wrapper p {
     font-size: 1.2em;
@@ -1029,4 +1066,8 @@ header nav ul li a:hover {
   .article p {
     margin-bottom: 36px;
   }
+}
+
+.no-padding {
+  padding-bottom: 0px;
 }
