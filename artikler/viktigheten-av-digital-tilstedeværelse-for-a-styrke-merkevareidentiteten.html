@@ -44,18 +44,6 @@
   </header>
   <section class="article-header-wrapper">
     <h1>Viktigheten av digital tilstedeværelse for å styrke merkevareidentiteten</h1>
-    <div class="data-wrapper">
-      <div class="datatag">Digital tilstedeværelse</div>
-      <div class="datatag">Merkevareidentitet</div>
-      <div class="datatag">Digital merkevarebygging</div>
-      <div class="datatag">SEO</div>
-      <div class="datatag">Sosiale medier</div>
-      <div class="datatag">Nettside</div>
-      <div class="datatag">Logo</div>
-      <div class="datatag">Kunder</div>
-      <div class="datatag">Markedsføring</div>
-    </div>
-
   </section>
   <section>
     <img src="../assets/aritkkel-bilder/aptere-illustrasjon-artikkel.png"
@@ -84,10 +72,84 @@
         potensielle kunder som de ellers ikke ville ha nådd. Enten det er på grunn av geografiske begrensninger eller at
         interesserte sliter med å finne akkurat din bedrift, gir digital tilstedeværelse en eksepsjonell mulighet til
         ikke bare å &oslash;ke salget, men også til å kommunisere og bygge langvarige relasjoner med kunder uten å
-        m&oslash;tes ansikt til ansikt.<br /><br /></p>
+        m&oslash;tes ansikt til ansikt.</p>
+      <div class="data-wrapper">
+        <div class="datatag">Digital tilstedeværelse</div>
+        <div class="datatag">Merkevareidentitet</div>
+        <div class="datatag">Digital merkevarebygging</div>
+        <div class="datatag">SEO</div>
+        <div class="datatag">Sosiale medier</div>
+        <div class="datatag">Nettside</div>
+        <div class="datatag">Logo</div>
+        <div class="datatag">Kunder</div>
+        <div class="datatag">Markedsføring</div>
+      </div>
+  </section>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <div class="logo-emblem">a</div>
+    <div class="footer-column">
+      <h3>Kontakt</h3>
+      <ul>
+        <li><a href="mailto:hei@aptere.no">hei@aptere.no</a></li>
+        <li><a href="https://www.instagram.com/aptere_no">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/company/aptere">LinkedIn</a></li>
+      </ul>
+    </div>
+
+
+    <div class="footer-column">
+      <h3>Snarveier</h3>
+      <ul>
+        <li><a href="/om-oss">Om oss</a></li>
+        <li><a href="https://aptere.no/#prosjekter">Prosjekter</a></li>
+      </ul>
+    </div>
+
+  </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Get the modal
+      var modal = document.getElementById("contactModal");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("openModalBtn");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks the button, open the modal 
+      btn.onclick = function () {
+        modal.style.display = "flex";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+
+      // Add active-form class to checkboxes on click
+      document.querySelectorAll('#contact-form .checkbox-group label input').forEach(checkbox => {
+        checkbox.addEventListener('change', function () {
+          if (this.checked) {
+            this.parentNode.classList.add('active-form');
+          } else {
+            this.parentNode.classList.remove('active-form');
+          }
+        });
+      });
+    });
+  </script>
 </body>
 </div>
-</section>
-</section>
+
 
 </html>
