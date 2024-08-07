@@ -944,3 +944,24 @@ flex-direction: column!important;
   flex-direction: row;
   min-height: 50vh;
 }
+
+.article {
+  width: 767px;
+  gap: 0px;
+}
+
+.article p {
+  margin-bottom: 36px;
+  font-size: 1.5em;
+}
+
+.article h2 {
+  font-family: TT Nooks;
+  letter-spacing: -2px;
+}
+
+.article-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
