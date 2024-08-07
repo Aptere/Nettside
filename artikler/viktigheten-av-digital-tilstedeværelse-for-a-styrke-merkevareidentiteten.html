@@ -86,6 +86,52 @@
       </div>
   </section>
   </section>
+  <div class="contact-form-wrapper">
+
+
+    <!-- The Modal -->
+    <div id="contactModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <section id="contact-form">
+          <h1>Kontaktskjema</h1>
+          <form action="https://formspree.io/f/mldrgwaw" method="POST">
+            <div class="form-wrapper">
+              <label for="navn">Ditt navn</label>
+              <input type="text" id="navn" name="navn" placeholder="Navn Navnesen" required>
+            </div>
+            <div class="form-wrapper">
+              <label for="telefon">Telefonnummer</label>
+              <input type="tel" id="telefon" name="telefon" placeholder="+47 12 34 56 78" required>
+            </div>
+            <div class="form-wrapper">
+              <label for="firmanavn">Firmanavn</label>
+              <input type="text" id="firmanavn" name="firmanavn" placeholder="Firmanavn AS" required>
+            </div>
+            <div class="form-wrapper">
+              <label>Hva kan vi hjelpe deg med?</label>
+              <div class="checkbox-group">
+                <label><input type="checkbox" name="hjelp" value="webside"><span>Webside</span></label>
+                <label><input type="checkbox" name="hjelp" value="strategi"><span>Strategi og
+                    merkevarebygging</span></label>
+                <label><input type="checkbox" name="hjelp" value="identitet"><span>Visuell identitet</span></label>
+                <label><input type="checkbox" name="hjelp" value="markedsforing"><span>Markedsføring</span></label>
+                <label><input type="checkbox" name="hjelp" value="video_foto"><span>Video og foto</span></label>
+                <label><input type="checkbox" name="hjelp" value="annet"><span>Annet</span></label>
+              </div>
+            </div>
+            <div class="form-wrapper">
+              <label for="melding">Valgfri melding:</label>
+              <textarea id="melding" name="melding" placeholder="Skriv din melding her"></textarea>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+
   <!-- Footer -->
   <footer>
     <div class="logo-emblem">a</div>
@@ -106,7 +152,6 @@
         <li><a href="https://aptere.no/#prosjekter">Prosjekter</a></li>
       </ul>
     </div>
-
   </footer>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -149,7 +194,5 @@
     });
   </script>
 </body>
-</div>
-
 
 </html>
