@@ -951,17 +951,31 @@ flex-direction: column!important;
 }
 
 .article p {
-  margin-bottom: 36px;
+  margin-bottom: 72px;
   font-size: 1.5em;
+  line-height: 1.7em;
 }
 
 .article h2 {
   font-family: TT Nooks;
-  letter-spacing: -2px;
+  letter-spacing: -1.5px;
 }
 
 .article-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.article-header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0;
+}
+
+.article-header-wrapper h1 {
+  line-height: 1.2em;
 }
