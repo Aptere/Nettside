@@ -50,6 +50,29 @@
   background-color: var(--gul);
 }
 
+.gronn-hover,
+.blue-hover,
+.gul-hover,
+.pink-hover {
+  background-color: inherit;
+}
+
+.gronn-hover:hover {
+  background-color: var(--gronn);
+}
+
+.blue-hover:hover {
+  background-color: var(--blue);
+}
+
+.gul-hover:hover {
+  background-color: var(--gul);
+}
+
+.pink-hover:hover {
+  background-color: var(--pink);
+}
+
 @font-face {
   font-family: "TT Nooks";
   src: url("fonts/TTNooks-Bold.eot");
@@ -1114,4 +1137,85 @@ a .breadcrumbs {
 
 a .breadcrumbs:hover {
   text-decoration: underline;
+}
+
+.tjeneste a {
+  padding: 64px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: var(--color-dark);
+  height: 350px;
+}
+
+.tjeneste a:hover {
+  outline: 3px solid var(--color-dark);
+  text-decoration: none !important;
+}
+
+.tjeneste p {
+  font-size: 1.3em;
+  margin-top: 0;
+}
+
+.tjeneste h2 {
+  margin-top: 48px;
+}
+
+#tjenester-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.tjeneste p {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.tjeneste:hover p {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tjenester-wrapper {
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+article.tjeneste {
+  width: calc(25% - 28px);
+}
+
+@media (max-width: 1200px) {
+  article.tjeneste {
+    width: calc(50% - 24px);
+  }
+}
+
+@media (max-width: 1024px) {
+  article.tjeneste {
+    width: calc(50% - 24px);
+  }
+  .tjeneste p {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  .tjeneste a {
+    padding: 36px 36px;
+    height: unset;
+  }
+  .tjeneste h2 {
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 767px) {
+  article.tjeneste {
+    width: 100%;
+  }
 }
