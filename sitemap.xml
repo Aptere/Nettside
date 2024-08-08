@@ -54,4 +54,46 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>http://www.aptere.no/tjenester/foto-og-video</loc>
+    <lastmod>2024-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.aptere.no/tjenester/grafisk-design</loc>
+    <lastmod>2024-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.aptere.no/tjenester/markedsforing</loc>
+    <lastmod>2024-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.aptere.no/tjenester/strategi-og-merkevarebygging</loc>
+    <lastmod>2024-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.aptere.no/tjenester/utvikling</loc>
+    <lastmod>2024-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.aptere.no/tjenester/visuell-identitet</loc>
+    <lastmod>2024-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.aptere.no/tjenester/webside</loc>
+    <lastmod>2024-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
