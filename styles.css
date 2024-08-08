@@ -390,12 +390,12 @@ header nav ul li a:hover {
   background-color: var(--color-primary-surface);
   color: var(--color-dark);
   cursor: pointer;
-  padding: 24px 24px;
+  padding: 36px 24px;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 1.7em;
+  font-size: 2.2em;
   font-family: "Manrope";
   font-weight: 400;
   transition: 0.4s;
@@ -441,7 +441,6 @@ header nav ul li a:hover {
   font-family: "Manrope";
   font-weight: 400;
 }
-
 .accordion-wrapper {
   padding: 72px;
 }
@@ -1170,20 +1169,6 @@ a .breadcrumbs:hover {
   flex-direction: column;
 }
 
-/*
-
-.tjeneste p {
-  opacity: 0;
-  transform: translateY(100%);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-.tjeneste:hover p {
-  opacity: 1;
-  transform: translateY(0);
-}
-  */
-
 .tjenester-wrapper {
   display: flex;
   gap: 24px;
@@ -1192,16 +1177,18 @@ a .breadcrumbs:hover {
 }
 
 article.tjeneste {
-  width: calc(25% - 18px);
+  width: calc(50% - 18px);
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1367px) {
+  article.tjeneste {
+    width: calc(25% - 24px);
+  }
+}
+
+@media (max-width: 1440px) {
   article.tjeneste {
     width: calc(50% - 24px);
-  }
-  .tjeneste p {
-    opacity: 1;
-    transform: translateY(0%);
   }
 }
 
@@ -1212,12 +1199,9 @@ article.tjeneste {
 
   .tjeneste a {
     padding: 36px 36px;
-    height: unset;
   }
   .tjeneste h2 {
     margin-top: 8px;
-    font-size: 24px;
-    font-weight: 600;
   }
 }
 
@@ -1225,4 +1209,22 @@ article.tjeneste {
   article.tjeneste {
     width: 100%;
   }
+}
+
+.simple-link {
+  color: var(--color-dark) !important;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+#generelle-tjenester {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+}
+
+#generelle-tjenester h2 {
+  margin-bottom: 24px;
+  width: 50%;
 }
