@@ -21,9 +21,17 @@
 
   /**/
   --pink: #d0abff;
+  --pink-hover: #b897e1;
+  --pink-active: #a184c5;
   --gul: #ffe2ab;
+  --gul-hover: #e5cb99;
+  --gul-active: #cdb689;
   --blue: #abd7ff;
+  --blue-hover: #98bfe3;
+  --blue-active: #86a9c8;
   --gronn: #c6ffab;
+  --gronn-hover: #b4e89b;
+  --gronn-active: #a1d08b;
 }
 
 .digdir-theme {
@@ -50,27 +58,59 @@
   background-color: var(--gul);
 }
 
-.gronn-hover,
-.blue-hover,
-.gul-hover,
-.pink-hover {
-  background-color: inherit;
-}
-
-.gronn-hover:hover {
+.gronn {
   background-color: var(--gronn);
 }
 
-.blue-hover:hover {
+.blue {
   background-color: var(--blue);
 }
 
-.gul-hover:hover {
+.gul {
   background-color: var(--gul);
 }
 
-.pink-hover:hover {
+.pink {
   background-color: var(--pink);
+}
+
+.gronn:hover {
+  background-color: var(--gronn-hover);
+}
+
+.blue:hover {
+  background-color: var(--blue-hover);
+}
+
+.gul:hover {
+  background-color: var(--gul-hover);
+}
+
+.pink:hover {
+  background-color: var(--pink-hover);
+}
+
+.gronn:active {
+  background-color: var(--gronn-active);
+}
+
+.blue:active {
+  background-color: var(--blue-active);
+}
+
+.gul:active {
+  background-color: var(--gul-active);
+}
+
+.pink:active {
+  background-color: var(--pink-active);
+}
+
+.gronn,
+.pink,
+.gul,
+.blue {
+  transition: 0.3s;
 }
 
 @font-face {
