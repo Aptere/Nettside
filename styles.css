@@ -1292,3 +1292,14 @@ article.tjeneste {
     flex-direction: column;
   }
 }
+@media (max-width: 767px) {
+  #generelle-tjenester {
+    flex-direction: column;
+    gap: 16px;
+  }
+  #generelle-tjenester h2 {
+    margin-bottom: 8px;
+    padding: 0;
+    width: 100%;
+  }
+}
