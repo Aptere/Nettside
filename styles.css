@@ -395,7 +395,7 @@ header nav ul li a:hover {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 24px;
+  font-size: 1.7em;
   font-family: "Manrope";
   font-weight: 400;
   transition: 0.4s;
@@ -436,7 +436,7 @@ header nav ul li a:hover {
 }
 
 .panel p {
-  font-size: 24px;
+  font-size: 1.3em;
   line-height: 36px;
   font-family: "Manrope";
   font-weight: 400;
@@ -1160,7 +1160,8 @@ a .breadcrumbs:hover {
 
 .tjeneste h2 {
   margin-top: 48px;
-  font-weight: 600;
+  font-size: 2.2em;
+  font-weight: 500;
   word-break: keep-all;
 }
 
