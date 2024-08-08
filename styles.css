@@ -1160,12 +1160,16 @@ a .breadcrumbs:hover {
 
 .tjeneste h2 {
   margin-top: 48px;
+  font-weight: 600;
+  word-break: keep-all;
 }
 
 #tjenester-wrapper {
   display: flex;
   flex-direction: column;
 }
+
+/*
 
 .tjeneste p {
   opacity: 0;
@@ -1177,6 +1181,7 @@ a .breadcrumbs:hover {
   opacity: 1;
   transform: translateY(0);
 }
+  */
 
 .tjenester-wrapper {
   display: flex;
@@ -1186,16 +1191,10 @@ a .breadcrumbs:hover {
 }
 
 article.tjeneste {
-  width: calc(25% - 28px);
+  width: calc(25% - 18px);
 }
 
 @media (max-width: 1200px) {
-  article.tjeneste {
-    width: calc(50% - 24px);
-  }
-}
-
-@media (max-width: 1024px) {
   article.tjeneste {
     width: calc(50% - 24px);
   }
@@ -1203,6 +1202,13 @@ article.tjeneste {
     opacity: 1;
     transform: translateY(0%);
   }
+}
+
+@media (max-width: 1024px) {
+  article.tjeneste {
+    width: calc(50% - 24px);
+  }
+
   .tjeneste a {
     padding: 36px 36px;
     height: unset;
