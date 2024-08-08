@@ -34,6 +34,22 @@
   background-color: var(--naturvin-theme);
 }
 
+.gronn-theme {
+  background-color: var(--gronn);
+}
+
+.blue-theme {
+  background-color: var(--blue);
+}
+
+.pink-theme {
+  background-color: var(--pink);
+}
+
+.gul-theme {
+  background-color: var(--gul);
+}
+
 @font-face {
   font-family: "TT Nooks";
   src: url("fonts/TTNooks-Bold.eot");
