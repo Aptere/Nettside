@@ -366,7 +366,7 @@ header nav ul li a:hover {
 .project-link {
   text-decoration: none;
   color: var(--color-dark);
-  width: 50%;
+  width: calc(50% - 18px);
 }
 
 .project-link:hover {
