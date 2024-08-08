@@ -352,8 +352,7 @@ header nav ul li a:hover {
 }
 
 .project img {
-  height: 60vh;
-  width: 100%;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
 }
 
@@ -720,7 +719,7 @@ header nav ul li a:hover {
   }
 
   .project img {
-    height: 300px;
+    aspect-ratio: 16 / 9;
   }
 
   #about-page {
