@@ -1188,18 +1188,23 @@ a .breadcrumbs:hover {
   height: 300px;
 }
 
-.tjeneste a:hover {
+.tjeneste:hover {
   outline: 3px solid var(--color-dark);
   text-decoration: none !important;
 }
 
+
+.tjeneste a {
+  text-decoration: none !important;
+}
+
 .tjeneste p {
-  font-size: 1.3em;
+  font-size: 1.8em;
   margin-top: 0;
 }
 
 .tjeneste h2 {
-  font-size: 2.2em;
+  font-size: 2.7em;
   font-weight: 500;
   word-break: keep-all;
 }
@@ -1228,7 +1233,7 @@ article.tjeneste {
 
 @media (min-width: 1400px) {
   article.tjeneste {
-    
+
   }
   .tjeneste a {
     height: unset !important;
