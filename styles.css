@@ -1217,18 +1217,18 @@ a .breadcrumbs:hover {
 }
 
 article.tjeneste {
-  width: calc(50% - 18px);
+  flex: calc(50% - 18px);
 }
 
 @media (min-width: 1367px) {
   article.tjeneste {
-    width: calc(25% - 24px);
+    
   }
 }
 
 @media (max-width: 1440px) {
   article.tjeneste {
-    width: calc(50% - 24px);
+    
   }
   .tjeneste a {
     height: unset !important;
@@ -1240,7 +1240,7 @@ article.tjeneste {
 
 @media (max-width: 1024px) {
   article.tjeneste {
-    width: calc(50% - 24px);
+    flex: 100%;
   }
 
   .tjeneste a {
