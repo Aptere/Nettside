@@ -1202,6 +1202,7 @@ a .breadcrumbs:hover {
   font-size: 3vh;
   font-weight: 400;
   margin-top: 0;
+  width: 80%;
 }
 
 .tjeneste h2 {
@@ -1334,8 +1335,8 @@ article.tjeneste {
 }
 
 .color-change-4x {
-	-webkit-animation: color-change-4x 15s linear infinite alternate both;
-	        animation: color-change-4x 15s linear infinite alternate both;
+	-webkit-animation: color-change-4x 25s linear infinite alternate both;
+	        animation: color-change-4x 25s linear infinite alternate both;
 }
 
 
