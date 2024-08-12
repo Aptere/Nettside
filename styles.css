@@ -1226,7 +1226,7 @@ article.tjeneste {
   }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1400px) {
   article.tjeneste {
     
   }
