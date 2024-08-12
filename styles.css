@@ -682,8 +682,9 @@ header nav ul li a:hover {
 
 @media (max-width: 1024px) {
   #about h1 {
-    width: unset;
-    max-width: 500px;
+    font-size: 9vw;
+    line-height: 1.2em;
+    letter-spacing: -2px;
   }
 
   h1 {
