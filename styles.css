@@ -171,11 +171,13 @@ section {
 
 #about {
   background-color: var(--color-primary);
+  gap: 48px;
 }
 
 #about h1 {
   width: 90%;
   font-size: 11vh;
+  letter-spacing: -4px;
 }
 
 h1 {
