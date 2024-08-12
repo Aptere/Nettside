@@ -1199,12 +1199,13 @@ a .breadcrumbs:hover {
 }
 
 .tjeneste p {
-  font-size: 1.8em;
+  font-size: 3.5vh;
+  font-weight: 400;
   margin-top: 0;
 }
 
 .tjeneste h2 {
-  font-size: 2.7em;
+  font-size: 6vh;
   font-weight: 500;
   word-break: keep-all;
 }
