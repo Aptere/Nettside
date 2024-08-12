@@ -174,7 +174,8 @@ section {
 }
 
 #about h1 {
-  width: 1150px;
+  width: 90%;
+  font-size: 11vh;
 }
 
 h1 {
