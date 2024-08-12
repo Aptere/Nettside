@@ -434,7 +434,7 @@ header nav ul li a:hover {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 2.2em;
+  font-size: 6vh;
   font-family: "Manrope";
   font-weight: 400;
   transition: 0.4s;
@@ -1277,7 +1277,7 @@ article.tjeneste {
   margin-bottom: 24px;
   width: 50%;
   padding: 36px 0px;
-  font-size: 2.2em;
+  font-size: 6vh;
 }
 
 #tjeneste-page {
