@@ -1302,3 +1302,15 @@ article.tjeneste {
     width: 100%;
   }
 }
+
+#forside {
+  padding: 36px 72px;
+}
+
+
+@media (max-width: 1024px) {
+
+  #forside {
+    padding: 28px;
+  }
+}
