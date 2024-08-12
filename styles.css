@@ -1393,3 +1393,9 @@ article.tjeneste {
 #prosjekter {
   gap: 24px;
 }
+
+@media (max-width: 1024px) {
+.Nooks-Heading {
+  font-size: 8vw;
+}
+}
