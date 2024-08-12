@@ -54,6 +54,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+    <url>
+    <loc>http://www.aptere.no/artikler/skape-engasjerende-visuelt-innhold</loc>
+    <lastmod>2024-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>http://www.aptere.no/tjenester/foto-og-video</loc>
     <lastmod>2024-08-08</lastmod>
