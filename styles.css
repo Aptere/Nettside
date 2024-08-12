@@ -1103,7 +1103,7 @@ article img {
 }
 
 article {
-  width: calc(50% - 24px);
+  flex: calc(50% - 24px);
   color: var(--color-dark);
   text-decoration: none !important;
 }
@@ -1137,11 +1137,11 @@ article:hover img {
 
 @media (max-width: 1024px) {
   article {
-    width: 100%;
+    flex: 100%;
   }
 
   .article {
-    width: 100%;
+    flex: 100%;
   }
   .article-header-wrapper p {
     font-size: 1.2em;
@@ -1316,7 +1316,7 @@ article.tjeneste {
 }
 
 #forside {
-  padding: 36px 72px;
+  padding: 24px 72px;
 }
 
 #forside h2 {
@@ -1382,4 +1382,14 @@ article.tjeneste {
   100% {
     background: var(--blue);
   }
+}
+
+.Nooks-Heading {
+  font-family: "TT Nooks"!important;
+  font-size: 3vw;
+  letter-spacing: -2px;
+}
+
+#prosjekter {
+  gap: 24px;
 }
