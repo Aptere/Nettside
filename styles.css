@@ -142,7 +142,7 @@ body {
 }
 
 .digdir-theme #single-image {
-  padding: 72px 72px;
+  padding: 4vw;
 }
 
 .logo-emblem {
@@ -163,7 +163,7 @@ h6 {
 }
 
 section {
-  padding: 72px;
+  padding: 4vw;
   display: flex;
   gap: 36px;
   flex-direction: column;
@@ -203,13 +203,13 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: var(--color-primary);
-  padding: 36px 72px;
+  padding: 36px 4vw;
 }
 
 footer {
   display: flex;
   align-items: flex-start;
-  padding: 36px 72px;
+  padding: 36px 4vw;
   justify-content: space-between;
   border-top: 1px solid #15152c1f;
   margin-top: 24px;
@@ -412,17 +412,17 @@ header nav ul li a:hover {
 .image-container {
   display: flex;
   width: 100%;
-  gap: 72px;
+  gap: 4vw;
 }
 
 #image-double {
   display: flex;
   flex-direction: row;
-  padding: 24px 72px;
+  padding: 24px 4vw;
 }
 
 #single-image {
-  padding: 24px 72px;
+  padding: 24px 4vw;
 }
 
 #image-double img {
@@ -485,11 +485,11 @@ header nav ul li a:hover {
   font-weight: 400;
 }
 .accordion-wrapper {
-  padding: 72px;
+  padding: 4vw;
 }
 
 #tjenester {
-  padding: 72px;
+  padding: 4vw;
   display: flex;
   gap: 16px;
   flex-direction: column;
@@ -1308,7 +1308,7 @@ article.tjeneste {
 }
 
 #forside {
-  padding: 24px 72px;
+  padding: 24px 4vw;
 }
 
 #forside h2 {
