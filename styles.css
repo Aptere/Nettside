@@ -182,7 +182,7 @@ section {
 
 h1 {
   font-size: 64px;
-  line-height: 1em;
+  line-height: 1.1em;
   letter-spacing: -2px;
 }
 
@@ -1407,5 +1407,67 @@ article.tjeneste {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+.fade-in-bottom {
+  -webkit-animation: fade-in-bottom 0.7s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: fade-in-bottom 0.7s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.hero-button {
+  padding: 36px;
+  margin-top: 16px;
+}
+
+/* Styling for elements that will fade in */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* When elements are visible, apply this class to fade them in */
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Disable animation for screens under 1024px */
+@media (max-width: 1024px) {
+  .fade-in {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 }
