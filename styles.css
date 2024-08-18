@@ -1471,3 +1471,19 @@ button {
     transition: none;
   }
 }
+
+.full-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .full-page {
+    min-height: unset;
+  }
+  #about {
+    gap: 0;
+  }
+}
