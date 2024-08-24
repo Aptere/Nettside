@@ -32,6 +32,7 @@
   --gronn: #c6ffab;
   --gronn-hover: #b4e89b;
   --gronn-active: #a1d08b;
+  --main-surface: #ffc2c2;
 }
 
 .digdir-theme {
@@ -111,6 +112,10 @@
 .gul,
 .blue {
   transition: 0.3s;
+}
+
+.main-surface {
+  background-color: var(--main-surface);
 }
 
 @font-face {
@@ -287,7 +292,7 @@ header nav ul {
 
 header nav ul li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 16px;
 }
 
 header nav ul li:last-child {
@@ -1456,7 +1461,7 @@ button {
 }
 
 .hero-button {
-  padding: 28px 36px;
+  padding: 24px 28px;
   display: flex;
   margin-top: 16px;
   gap: 8px;
