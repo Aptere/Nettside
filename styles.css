@@ -114,10 +114,6 @@
   transition: 0.3s;
 }
 
-.main-surface {
-  background-color: var(--main-surface);
-}
-
 @font-face {
   font-family: "TT Nooks";
   src: url("fonts/TTNooks-Bold.eot");
@@ -182,11 +178,12 @@ section {
 }
 
 #about {
+  gap: 24px;
 }
 
 #about h1 {
   width: 90%;
-  font-size: 11vh;
+  font-size: 13vh;
   letter-spacing: -4px;
 }
 
@@ -1461,17 +1458,13 @@ button {
 }
 
 .hero-button {
-  padding: 24px 28px;
+  padding: 32px 36px;
   display: flex;
-  margin-top: 16px;
+  margin-top: 0px;
   gap: 8px;
+  width: fit-content;
   border-radius: 800px;
   align-items: center;
-}
-
-.hero-button:after {
-  content: url('assets/ikoner/Arrow.svg');
-  display: inline-block;
 }
 
 /* Styling for elements that will fade in */
@@ -1510,4 +1503,57 @@ button {
   #about {
     gap: 0;
   }
+}
+
+.nettsider {
+  background-color: var(--blue);
+}
+
+.design {
+  background-color: var(--gronn);
+
+}
+
+.innhold {
+  background-color: var(--gul);
+}
+
+.hero span {
+  line-height: 0;
+
+  transition: height 0.3s ease;
+}
+
+
+.hero {
+  font-family: Manrope;
+  font-weight: 300;
+  line-height: 1.2em;
+  letter-spacing: 0px !important;
+}
+
+
+.main-surface {
+  background-color: white;
+}
+
+.hero {
+  /* Add your styles for the hero element here */
+}
+
+.hero div {
+  display: inline-block;
+  transition: transform 0.4s ease;
+  
+}
+
+.hero div a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 0 5px; /* Optional: Add some padding for spacing */
+}
+
+.hero div:hover {
+  transform: rotate(5deg); /* Adjust the degree of rotation as needed */
 }
