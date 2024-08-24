@@ -1507,15 +1507,18 @@ button {
 
 .nettsider {
   background-color: var(--blue);
+  transform: rotate(5deg);
 }
 
 .design {
   background-color: var(--gronn);
+  transform: rotate(2deg);
 
 }
 
 .innhold {
   background-color: var(--gul);
+  transform: rotate(-3deg);
 }
 
 .hero span {
@@ -1555,5 +1558,5 @@ button {
 }
 
 .hero div:hover {
-  transform: rotate(5deg); /* Adjust the degree of rotation as needed */
+  transform: rotate(0deg); /* Adjust the degree of rotation as needed */
 }
