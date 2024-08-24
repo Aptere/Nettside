@@ -35,46 +35,48 @@
 </head>
 
 <body>
+  <div class="full-page color-change-4x">
+    <header class="color-change-4x fade-in">
+      <a href="/">
+        <div class="header-name">aptere</div>
+      </a>
+      <div class="menu-icon" onclick="toggleMenu()"><img src="assets/ikoner/Menu.svg"></div>
+      <nav id="menu">
+        <div class="close-btn" onclick="toggleMenu()"><img src="assets/ikoner/MenuClose.svg"></div>
+        <ul>
+          <li><a href="/tjenester">Våre tjenester</a></li>
+          <li><a href="https://aptere.no/#prosjekter">Prosjekter</a></li>
+          <li><a href="/om-oss">Om oss</a></li>
+          <li><a href="/folka">Folka</a></li>
+          <li><a href="/artikler">Artikler</a></li>
+          <li><button id="openModalBtn" class="contact-button">Ta kontakt</button></li>
+        </ul>
+      </nav>
+    </header>
 
-  <header class="color-change-4x">
-    <a href="/">
-      <div class="header-name">aptere</div>
-    </a>
-    <div class="menu-icon" onclick="toggleMenu()"><img src="assets/ikoner/Menu.svg"></div>
-    <nav id="menu">
-      <div class="close-btn" onclick="toggleMenu()"><img src="assets/ikoner/MenuClose.svg"></div>
-      <ul>
-        <li><a href="/tjenester">Våre tjenester</a></li>
-        <li><a href="https://aptere.no/#prosjekter">Prosjekter</a></li>
-        <li><a href="/om-oss">Om oss</a></li>
-        <li><a href="/folka">Folka</a></li>
-        <li><a href="/artikler">Artikler</a></li>
-        <li><button id="openModalBtn" class="contact-button">Ta kontakt</button></li>
-      </ul>
-    </nav>
-  </header>
 
 
-
-  <!-- Section 1: About -->
-  <section id="about" class="color-change-4x">
-    <h1>Aptere er ditt full-service markedsføringsbyrå som tar hånd om alt fra strategi til gjennomføring.</h1>
-    <div class="button-wrapper">
-      <a href="/tjenester" class="primary-btn">Se våre tjenester</a>
-    </div>
-  </section>
-
+    <!-- Section 1: About -->
+    <section id="about" class="color-change-4x">
+      <h1 class="hero">Aptere er ditt full-service markedsføringsbyrå som tar hånd om alt fra strategi til
+        gjennomføring.
+      </h1>
+      <div class="button-wrapper fade-in-bottom">
+        <a href="/tjenester" class="secondary-btn hero-button">Se våre tjenester</a>
+      </div>
+    </section>
+  </div>
   <!-- Section 2: Projects -->
   <section id="prosjekter">
-    <h2 class="Nooks-Heading">Prosjekter</h2>
+    <h2 class="Nooks-Heading fade-in">Prosjekter</h2>
     <div class="project-wrapper">
-      <a href="prosjekter/digdir" class="project-link">
+      <a href="prosjekter/digdir" class="project-link fade-in">
         <div class="project">
           <img src="assets/caser/digdir/digdir-image-01.gif">
           <p>Digdir</p>
         </div>
       </a>
-      <a href="prosjekter/naturvinforbundet" class="project-link">
+      <a href="prosjekter/naturvinforbundet" class="project-link fade-in">
         <div class="project">
           <img src="assets/caser/naturvinforbundet/naturvinforbundet-image-01.png">
           <p>Naturvinforbundet</p>
@@ -88,27 +90,26 @@
   </section>
 
   <section class="no-padding">
-    <h2 class="Nooks-Heading">Artikler</h2>
-</section>
-<section id="forside" class="article-samlet">
-    <article>
-        <a
-            href="https://aptere.no/artikler/skape-engasjerende-visuelt-innhold">
-            <img src="../assets/aritkkel-bilder/aptere-illustrasjon-artikkel-innhold.jpg"
-                alt="En illustrasjon som viser en person som tar en selfie. Personen er kledd i en gul genser og holder opp et fredstegn med fingrene. I bakgrunnen vises en stilisert byscene. Skjermen ligner på et Instagram-innlegg med 999 likes og et hjerteikon, en kommentarboble, og et papirfly-ikon under bildet." />
-            <h2>Skape engasjerende visuelt innhold: tips og triks                </h2>
-        </a>
+    <h2 class="Nooks-Heading fade-in">Artikler</h2>
+  </section>
+  <section id="forside" class="article-samlet">
+    <article class="fade-in">
+      <a href="https://aptere.no/artikler/skape-engasjerende-visuelt-innhold">
+        <img src="../assets/aritkkel-bilder/aptere-illustrasjon-artikkel-innhold.jpg"
+          alt="En illustrasjon som viser en person som tar en selfie. Personen er kledd i en gul genser og holder opp et fredstegn med fingrene. I bakgrunnen vises en stilisert byscene. Skjermen ligner på et Instagram-innlegg med 999 likes og et hjerteikon, en kommentarboble, og et papirfly-ikon under bildet." />
+        <h2>Skape engasjerende visuelt innhold: tips og triks </h2>
+      </a>
     </article>
-    <article>
-        <a
-            href="https://aptere.no/artikler/viktigheten-av-digital-tilstedev%C3%A6relse-for-a-styrke-merkevareidentiteten">
-            <img src="../assets/aritkkel-bilder/aptere-illustrasjon-artikkel.jpg"
-                alt="Illustrasjon av smarttelefon med ikoner for e-post, liker, tommel opp, video og meldinger på rosa bakgrunn." />
-            <h2>Viktigheten av digital tilstedeværelse for å styrke merkevareidentiteten</h2>
-        </a>
+    <article class="fade-in">
+      <a
+        href="https://aptere.no/artikler/viktigheten-av-digital-tilstedev%C3%A6relse-for-a-styrke-merkevareidentiteten">
+        <img src="../assets/aritkkel-bilder/aptere-illustrasjon-artikkel.jpg"
+          alt="Illustrasjon av smarttelefon med ikoner for e-post, liker, tommel opp, video og meldinger på rosa bakgrunn." />
+        <h2>Viktigheten av digital tilstedeværelse for å styrke merkevareidentiteten</h2>
+      </a>
     </article>
 
-</section>
+  </section>
 
   <div class="contact-form-wrapper">
 
