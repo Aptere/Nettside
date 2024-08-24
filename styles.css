@@ -178,7 +178,7 @@ section {
 }
 
 #about {
-  gap: 24px;
+  gap: 36px;
 }
 
 #about h1 {
@@ -1458,13 +1458,14 @@ button {
 }
 
 .hero-button {
-  padding: 32px 36px;
+  padding: 28px 36px;
   display: flex;
   margin-top: 0px;
-  gap: 8px;
+  gap: 16px;
   width: fit-content;
   border-radius: 800px;
   align-items: center;
+  font-size: 4vh;
 }
 
 /* Styling for elements that will fade in */
