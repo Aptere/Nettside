@@ -1008,6 +1008,8 @@ header nav ul li a:hover {
   color: var(--color-dark);
   font-weight: 300;
   font-size: 18px;
+  padding: 8px 16px;
+  border-radius: 600px;
   letter-spacing: 0.5px;
   line-height: 1.5em;
   background: none;
@@ -1447,8 +1449,17 @@ button {
 }
 
 .hero-button {
-  padding: 36px;
+  padding: 28px 36px;
+  display: flex;
   margin-top: 16px;
+  gap: 8px;
+  border-radius: 800px;
+  align-items: center;
+}
+
+.hero-button:after {
+  content: url('assets/ikoner/Arrow.svg');
+  display: inline-block;
 }
 
 /* Styling for elements that will fade in */
