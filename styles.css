@@ -123,10 +123,17 @@
   font-weight: bold;
   font-style: normal;
 }
-
+/*
 * {
   font-family: "Manrope";
 }
+  */
+
+  * {
+    font-family: "fustat", sans-serif;
+font-weight: 400;
+font-style: normal;
+  }
 
 /* Use Google font Manrope */
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=block");
