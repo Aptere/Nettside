@@ -610,6 +610,9 @@ header nav ul li a:hover {
 
   nav.show {
     display: flex;
+        height: 100vh;
+        background: var(--color-primary);
+        z-index: 999;
   }
 
   header nav ul {
