@@ -259,9 +259,14 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-  background-color: var(--color-primary-hover);
+  background-color: var(--main-surface);
   border-bottom: 2px solid var(--color-dark);
 }
+
+footer ul li a:active {
+  background-color: var(--color-primary-hover);
+}
+
 
 header a {
   text-decoration: none;
@@ -306,9 +311,15 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
+  background-color: var(--main-surface);
+  border-bottom: 2px solid var(--color-dark);
+}
+
+header nav ul li a:active {
   background-color: var(--color-primary-hover);
   border-bottom: 2px solid var(--color-dark);
 }
+
 
 .button-wrapper {
   display: flex;
