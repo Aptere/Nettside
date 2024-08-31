@@ -290,7 +290,7 @@ header nav ul {
 
 header nav ul li {
   display: inline;
-  margin-right: 16px;
+  margin-right: 24px;
 }
 
 header nav ul li:last-child {
