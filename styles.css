@@ -203,7 +203,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--color-primary);
+  background-color: transparent!important;
   padding: 24px 4vw;
   position: sticky;
     top: 0;
@@ -392,7 +392,7 @@ header nav ul li a:active {
 }
 
 .main-theme {
-  background-color: white;
+  background-color: transparent;
 }
 
 .project-h2 {
