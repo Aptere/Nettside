@@ -407,18 +407,24 @@ header nav ul li a:active {
   font-size: 24px;
   font-family: "Manrope", sans-serif;
   font-weight: 300;
+  line-height: 1.5em;
 }
 
 .info-wrapper {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  width: 75%;
+}
+
+.info-outer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 #info {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 48px;
 }
 
@@ -1585,4 +1591,47 @@ object-fit: cover;
 
   .desc {
     opacity: 0.5;
+  }
+
+  .fullwidth img {
+    width: 100%!important;
+    margin-bottom: -5px;
+  }
+
+  .fullwidth video {
+    width: 100%!important;
+  }
+
+  .fullwidth {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .intro-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 16px;
+  }
+
+  #losning {
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+    align-items: center;
+    margin-top: -5px;
+  }
+
+  .top {
+    align-items: center;
+
+  }
+
+  .column-50 {
+    width: 50%;
+  }
+
+  .column-50 img {
+    width: 100%;
   }
