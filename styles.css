@@ -1569,3 +1569,8 @@ button {
 .hero div:hover {
   transform: rotate(0deg); /* Adjust the degree of rotation as needed */
 }
+
+
+.square {
+aspect-ratio: 1 / 1!important;
+}
