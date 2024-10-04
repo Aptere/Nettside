@@ -388,7 +388,7 @@ header nav ul li a:active {
 
 .project-link:hover {
   text-decoration: underline;
-  text-underline-offset: 8px;
+  text-underline-offset: 4px;
 }
 
 .main-theme {
@@ -1581,4 +1581,8 @@ object-fit: cover;
   #about h1 {
     width: 100%!important;
   }
+  }
+
+  .desc {
+    opacity: 0.5;
   }
