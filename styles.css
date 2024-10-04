@@ -1615,12 +1615,16 @@ object-fit: cover;
     gap: 16px;
   }
 
-  #losning {
+  #losning, #konsept {
     display: flex;
     flex-direction: row;
     height: 75vh;
     align-items: center;
     margin-top: -5px;
+  }
+
+  #konsept {
+    
   }
 
   .top {
@@ -1634,4 +1638,29 @@ object-fit: cover;
 
   .column-50 img {
     width: 100%;
+  }
+
+  .animation {
+    height: 100vh;
+  }
+
+  #logo-reveal {
+    height: 100vh;
+  }
+
+  .column-100 {
+    width: 100%;
+    text-align: center;
+  }
+
+  #quote {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .quote-text {
+    font-size: 3em;
+    padding: 10vw;
   }
