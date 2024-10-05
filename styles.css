@@ -1622,11 +1622,6 @@ object-fit: cover;
     align-items: center;
     margin-top: -5px;
   }
-
-  #konsept {
-    
-  }
-
   .top {
     align-items: center;
 
@@ -1663,4 +1658,31 @@ object-fit: cover;
   .quote-text {
     font-size: 3em;
     padding: 10vw;
+  }
+
+  @media (max-width: 767px) {
+    .column-50 {
+      width: 100%;
+    }
+    #konsept {
+      flex-direction: column-reverse;
+    }
+
+    #konsept, #losning {
+      height: unset;
+    }
+
+    #losning {
+      flex-direction: column;
+    }
+    #info {
+      flex-direction: column;
+      gap: 0px;
+    }
+    .info-outer {
+      width: 100%;
+    }
+    .quote-text {
+      font-size: 2em;
+    }
   }
