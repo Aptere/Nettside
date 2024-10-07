@@ -1845,3 +1845,9 @@ button {
 .classicnine-theme .project-button:hover {
   background-color: rgb(15, 15, 15);
 }
+
+@media (max-width: 767px) {
+  #galleri {
+    gap: 24px;
+  }
+}
