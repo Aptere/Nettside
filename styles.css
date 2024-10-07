@@ -166,7 +166,7 @@ h6 {
 section {
   padding: 4vw;
   display: flex;
-  gap: 36px;
+  gap: 64px;
   flex-direction: column;
 }
 
@@ -206,7 +206,6 @@ header {
   background-color: transparent !important;
   padding: 24px 4vw;
   position: sticky;
-  width: 100%;
   top: 0;
   z-index: 2;
 }
@@ -222,6 +221,12 @@ header {
   top: 0;
   z-index: 2;
   box-sizing: border-box; /* Ensure padding is included within the width */
+  transition: 0.2s;
+}
+
+.naturvinforbundet-theme header:hover {
+  background-color: var(--naturvin-theme) !important;
+  transition: 0.2s;
 }
 
 footer {
@@ -438,7 +443,7 @@ header nav ul li a:active {
 #info {
   display: flex;
   flex-direction: row;
-  gap: 48px;
+  gap: 64px;
 }
 
 .image-container {
@@ -1613,6 +1618,12 @@ button {
   width: 100% !important;
 }
 
+.fullwidth iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  pointer-events: none;
+}
+
 .fullwidth {
   margin: 0;
   padding: 0;
@@ -1720,5 +1731,43 @@ button {
   }
   .digdir-theme h2 {
     font-size: 16px;
+  }
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0; /* Set height to 0 */
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio (9/16 = 0.5625, hence 56.25%) */
+  overflow: hidden; /* Hide overflow */
+}
+
+.video-container iframe {
+  position: absolute; /* Position absolutely */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+}
+
+#langt-bilde {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* overflow: hidden; */
+  margin-top: -5px;
+}
+
+.naturvinforbundet-theme #quote {
+  height: 50vh;
+}
+
+@media (max-width: 767px) {
+  #langt-bilde {
+    flex-direction: column;
+  }
+
+  section {
+    gap: 48px;
   }
 }
