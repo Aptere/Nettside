@@ -19,6 +19,7 @@
   --digdir-theme: #ffd9da;
   --naturvin-theme: #ffe2ab;
   --treestories-theme: #d9ffda;
+  --classicnine-theme: black;
 
   /**/
   --pink: #d0abff;
@@ -46,6 +47,11 @@
 
 .treestories-theme {
   background-color: var(--treestories-theme);
+}
+
+.classicnine-theme {
+  background-color: var(--classicnine-theme);
+  color: white;
 }
 
 .gronn-theme {
@@ -216,7 +222,8 @@ header {
 }
 
 .naturvinforbundet-theme header,
-.treestories-theme header {
+.treestories-theme header,
+.classicnine-theme header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -228,6 +235,20 @@ header {
   z-index: 2;
   box-sizing: border-box; /* Ensure padding is included within the width */
   transition: 0.2s;
+}
+
+.classicnine-theme #project-button-wrapper .project-desc {
+  color: var(--color-dark);
+}
+
+.classicnine-theme a,
+.header-name {
+  color: white !important;
+}
+
+.classicnine-theme .contact-button {
+  outline: 1px solid white !important;
+  color: white !important;
 }
 
 header:hover {
@@ -1786,4 +1807,8 @@ button {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
+}
+
+.classicnine-theme footer ul li a {
+  color: white !important;
 }
