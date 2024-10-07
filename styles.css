@@ -1040,6 +1040,10 @@ header nav ul li a:active {
   border-radius: 16px;
 }
 
+.modal-content h1 {
+  color: var(--color-dark);
+}
+
 .close {
   color: #aaa;
   float: right;
@@ -1811,4 +1815,12 @@ button {
 
 .classicnine-theme footer ul li a {
   color: white !important;
+}
+
+.classicnine-theme #losning {
+  height: 100vh;
+}
+
+.classicnine-theme #quote {
+  height: 50vh;
 }
