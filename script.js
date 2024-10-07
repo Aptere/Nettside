@@ -28,3 +28,22 @@ document.addEventListener("DOMContentLoaded", function () {
   // Observe each fade-in element
   fadeElements.forEach(element => observer.observe(element));
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const videoElements = document.querySelectorAll('video[loading="lazy"]');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const video = entry.target;
+        video.play(); // Start playing the video when in view
+        observer.unobserve(video); // Stop observing the video
+      }
+    });
+  });
+
+  videoElements.forEach(video => {
+    observer.observe(video); // Start observing the video
+  });
+});
