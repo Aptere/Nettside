@@ -1658,10 +1658,14 @@ button {
 }
 
 @media (max-width: 767px) {
-  #logo-reveal,
-  #quote {
+  #logo-reveal {
     height: unset;
   }
+
+  #quote {
+    height: 50vh;
+  }
+
   .quote-text {
     padding: 2vw;
   }
@@ -1691,6 +1695,16 @@ button {
     width: 100%;
   }
   .quote-text {
-    font-size: 2em;
+    font-size: 1.7em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .intro-wrapper {
+    width: 100%;
+    gap: 4px;
+  }
+  .digdir-theme h2 {
+    font-size: 16px;
   }
 }
