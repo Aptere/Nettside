@@ -1767,7 +1767,7 @@ button {
     flex-direction: column;
   }
 
-  section {
-    gap: 48px;
+  .naturvinforbundet-theme section {
+    gap: 24px;
   }
 }
