@@ -1726,7 +1726,8 @@ button {
   }
 
   #quote {
-    height: 50vh;
+    height: unset;
+    min-height: 50vh;
   }
 
   .quote-text {
@@ -1798,7 +1799,8 @@ button {
 
 .naturvinforbundet-theme #quote,
 .treestories-theme #quote {
-  height: 50vh;
+  height: unset;
+  min-height: 50vh;
 }
 
 @media (max-width: 767px) {
@@ -1833,7 +1835,8 @@ button {
 }
 
 .classicnine-theme #quote {
-  height: 50vh;
+  height: unset;
+  min-height: 50vh;
 }
 
 .classicnine-theme .project-button {
