@@ -1767,7 +1767,8 @@ button {
   margin-top: -5px;
 }
 
-.naturvinforbundet-theme #quote {
+.naturvinforbundet-theme #quote,
+.treestories-theme #quote {
   height: 50vh;
 }
 
