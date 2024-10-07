@@ -238,7 +238,11 @@ header {
 }
 
 .classicnine-theme #project-button-wrapper .project-desc {
-  color: var(--color-dark);
+  color: white;
+}
+
+.classicnine-theme #project-button-wrapper img {
+  filter: brightness(1000);
 }
 
 .classicnine-theme a,
@@ -1823,4 +1827,14 @@ button {
 
 .classicnine-theme #quote {
   height: 50vh;
+}
+
+.classicnine-theme .project-button {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+
+.classicnine-theme .project-button:hover {
+  background-color: rgb(15, 15, 15);
 }
