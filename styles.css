@@ -206,8 +206,22 @@ header {
   background-color: transparent !important;
   padding: 24px 4vw;
   position: sticky;
+  width: 100%;
   top: 0;
   z-index: 2;
+}
+
+.naturvinforbundet-theme header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent !important;
+  padding: 24px 4vw;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+  box-sizing: border-box; /* Ensure padding is included within the width */
 }
 
 footer {
