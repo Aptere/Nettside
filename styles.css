@@ -203,7 +203,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--color-primary);
+  background-color: transparent!important;
   padding: 24px 4vw;
   position: sticky;
     top: 0;
@@ -388,11 +388,11 @@ header nav ul li a:active {
 
 .project-link:hover {
   text-decoration: underline;
-  text-underline-offset: 8px;
+  text-underline-offset: 4px;
 }
 
 .main-theme {
-  background-color: white;
+  background-color: transparent;
 }
 
 .project-h2 {
@@ -407,18 +407,24 @@ header nav ul li a:active {
   font-size: 24px;
   font-family: "Manrope", sans-serif;
   font-weight: 300;
+  line-height: 1.5em;
 }
 
 .info-wrapper {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  width: 75%;
+}
+
+.info-outer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 #info {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 48px;
 }
 
@@ -1569,3 +1575,114 @@ button {
 .hero div:hover {
   transform: rotate(0deg); /* Adjust the degree of rotation as needed */
 }
+
+
+.square {
+aspect-ratio: 1 / 1!important;
+object-fit: cover;
+}
+
+
+@media (max-width: 1200px) {
+  #about h1 {
+    width: 100%!important;
+  }
+  }
+
+  .desc {
+    opacity: 0.5;
+  }
+
+  .fullwidth img {
+    width: 100%!important;
+    margin-bottom: -5px;
+  }
+
+  .fullwidth video {
+    width: 100%!important;
+  }
+
+  .fullwidth {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .intro-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 16px;
+  }
+
+  #losning, #konsept {
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+    align-items: center;
+    margin-top: -5px;
+  }
+  .top {
+    align-items: center;
+
+  }
+
+  .column-50 {
+    width: 50%;
+  }
+
+  .column-50 img {
+    width: 100%;
+  }
+
+  .animation {
+    height: 100vh;
+  }
+
+  #logo-reveal {
+    height: 100vh;
+  }
+
+  .column-100 {
+    width: 100%;
+    text-align: center;
+  }
+
+  #quote {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .quote-text {
+    font-size: 3em;
+    padding: 10vw;
+  }
+
+  @media (max-width: 767px) {
+    .column-50 {
+      width: 100%;
+    }
+    #konsept {
+      flex-direction: column-reverse;
+    }
+
+    #konsept, #losning {
+      height: unset;
+    }
+
+    #losning {
+      flex-direction: column;
+    }
+    #info {
+      flex-direction: column;
+      gap: 0px;
+    }
+    .info-outer {
+      width: 100%;
+    }
+    .quote-text {
+      font-size: 2em;
+    }
+  }

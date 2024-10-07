@@ -4,12 +4,7 @@ function toggleMenu() {
 }
   
 
-  document.addEventListener("DOMContentLoaded", () => {
-    const hero = document.querySelector(".hero");
-    const lines = hero.innerHTML.split(/<br\s*\/?>/g); // Split by lines (considering line breaks)
-    
-    hero.innerHTML = lines.map((line, index) => `<div class="line" style="animation-delay:${index * 0.5}s">${line}</div>`).join("");
-  });
+
 
 // Wait until the DOM is fully loaded
 document.addEventListener("DOMContentLoaded", function () {
