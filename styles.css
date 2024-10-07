@@ -18,6 +18,7 @@
   /**/
   --digdir-theme: #ffd9da;
   --naturvin-theme: #ffe2ab;
+  --treestories-theme: #d9ffda;
 
   /**/
   --pink: #d0abff;
@@ -41,6 +42,10 @@
 
 .naturvinforbundet-theme {
   background-color: var(--naturvin-theme);
+}
+
+.treestories-theme {
+  background-color: var(--treestories-theme);
 }
 
 .gronn-theme {
@@ -210,7 +215,8 @@ header {
   z-index: 2;
 }
 
-.naturvinforbundet-theme header {
+.naturvinforbundet-theme header,
+.treestories-theme header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -224,8 +230,8 @@ header {
   transition: 0.2s;
 }
 
-.naturvinforbundet-theme header:hover {
-  background-color: var(--naturvin-theme) !important;
+header:hover {
+  background-color: inherit !important;
   transition: 0.2s;
 }
 
@@ -410,7 +416,7 @@ header nav ul li a:active {
 }
 
 .main-theme {
-  background-color: transparent;
+  background-color: white;
 }
 
 .project-h2 {
@@ -1616,6 +1622,9 @@ button {
 
 .fullwidth video {
   width: 100% !important;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 .fullwidth iframe {
@@ -1770,4 +1779,10 @@ button {
   .naturvinforbundet-theme section {
     gap: 24px;
   }
+}
+
+.column-50 video {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
