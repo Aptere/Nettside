@@ -1660,7 +1660,10 @@ button {
 @media (max-width: 767px) {
   #logo-reveal,
   #quote {
-    height: 50vh;
+    height: unset;
+  }
+  .quote-text {
+    padding: 2vw;
   }
 }
 
