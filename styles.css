@@ -830,7 +830,7 @@ header nav ul li a:active {
   .digdir-theme h1 {
     font-size: 36px;
     margin-bottom: 16px;
-    margin-top: 32px;
+    margin-top: 8px;
   }
 
   #image-double {
@@ -1655,6 +1655,13 @@ button {
 .quote-text {
   font-size: 3em;
   padding: 10vw;
+}
+
+@media (max-width: 767px) {
+  #logo-reveal,
+  #quote {
+    height: 50vh;
+  }
 }
 
 @media (max-width: 767px) {
