@@ -125,17 +125,6 @@
   transition: 0.3s;
 }
 
-@font-face {
-  font-family: "TT Nooks";
-  src: url("fonts/TTNooks-Bold.eot");
-  src: url("fonts/TTNooks-Bold.eot?#iefix") format("embedded-opentype"),
-    url("fonts/TTNooks-Bold.woff2") format("woff2"),
-    url("fonts/TTNooks-Bold.woff") format("woff"),
-    url("fonts/TTNooks-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
 * {
   font-family: "Manrope";
 }
@@ -159,7 +148,7 @@ body {
 
 .logo-emblem {
   font-size: 64px;
-  font-family: "TT Nooks";
+  font-family: "Manrope";
   line-height: 0.5;
   width: 53%;
 }
@@ -170,7 +159,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "TT Nooks", sans-serif; /* Use TT Nooks for headings */
+  font-family: "Manrope", sans-serif; /* Use Manrope for headings */
   margin: 0;
 }
 
@@ -318,7 +307,7 @@ header a {
 }
 
 .header-name {
-  font-family: "TT Nooks", sans-serif; /* Use TT Nooks for headings */
+  font-family: "Manrope", sans-serif; /* Use Manrope for headings */
   font-size: 36px;
   line-height: 1.5em;
   letter-spacing: -1px;
@@ -1121,7 +1110,7 @@ header nav ul li a:active {
 }
 
 .article h2 {
-  font-family: TT Nooks;
+  font-family: Manrope;
   letter-spacing: -1.5px;
 }
 
@@ -1455,7 +1444,7 @@ article.tjeneste {
 }
 
 .Nooks-Heading {
-  font-family: "TT Nooks" !important;
+  font-family: "Manrope" !important;
   font-size: 3vw;
   letter-spacing: -1.3px;
 }
