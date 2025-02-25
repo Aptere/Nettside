@@ -1014,6 +1014,10 @@ header nav ul li a:active {
   color: var(--color-dark);
 }
 
+#contact-form {
+  width: 100%;
+}
+
 /* Popup Modal Styling */
 .modal {
   display: none; /* Hidden by default */
