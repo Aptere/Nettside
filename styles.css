@@ -188,6 +188,7 @@ section {
 h1 {
   font-size: 64px;
   line-height: 1.1em;
+  letter-spacing: 1px;
 }
 
 h2 {
