@@ -315,6 +315,10 @@ header a {
   z-index: 99999;
 }
 
+.header-name img {
+  height: 36px;
+}
+
 .header-name:hover {
   opacity: 0.5;
 }
