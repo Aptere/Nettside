@@ -151,10 +151,13 @@ body {
 }
 
 .logo-emblem {
-  font-size: 64px;
   font-family: "Manrope";
   line-height: 0.5;
   width: 53%;
+}
+
+.logo-emblem img {
+  height: 24px;
 }
 
 h1,
