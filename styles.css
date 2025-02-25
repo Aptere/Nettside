@@ -54,6 +54,10 @@
   color: white;
 }
 
+.classicnine-theme .header-name img {
+filter: brightness(99999);
+}
+
 .gronn-theme {
   background-color: var(--gronn);
 }
