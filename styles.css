@@ -321,6 +321,7 @@ header a {
 
 .header-name img {
   height: 36px;
+margin-bottom: -4px;
 }
 
 .header-name:hover {
